@@ -1,0 +1,8 @@
+options gen2
+
+require fio
+
+[export]
+def initialize(project_path : string) {
+    register_native_path("test_pure", "test_pure", "{project_path}/daslib/test_pure.das")
+}
