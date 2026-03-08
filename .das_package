@@ -1,0 +1,9 @@
+options gen2
+
+require daslib/daspkg
+
+[export]
+def package() {
+    package_name("daspkg-test-pure")
+    package_description("Test package: pure daslang module")
+}
