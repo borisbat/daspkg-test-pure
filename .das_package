@@ -5,5 +5,7 @@ require daslib/daspkg
 [export]
 def package() {
     package_name("daspkg-test-pure")
+    package_author("borisbat")
     package_description("Test package: pure daslang module")
+    package_tag("test")
 }
